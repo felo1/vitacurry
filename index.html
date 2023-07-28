@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Google Fots -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+      <!-- Remixicon Icon -->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+      <!-- Remixicon Icon -->
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <!-- Main CSS -->
+      <link href="assets/css/main.css" rel="stylesheet">
+    <title>CV Felipe Bazignan</title>
+  </head>
+  <script>
+    function saludo() {
+        var currentTime = new Date();
+        var hora_actual = currentTime.getHours();
+
+        var mensaje;
+
+        if (hora_actual >= 5 && hora_actual < 8) {
+            mensaje = "¿Tan temprano? Buenos días";
+        } else if (hora_actual >= 8 && hora_actual < 12) {
+            mensaje = "Buenas tardes, ¿qué tal?";
+        } else if (hora_actual >= 12 && hora_actual < 20) {
+            mensaje = "Buenas tardes, ¿qué tal?";
+        } else {
+            mensaje = "Buenas noches, ¿qué tal?";
+        }
+        var saludoElemento = document.getElementById("holanda");
+        saludoElemento.textContent = mensaje;
+    }
+</script>
+  <body onload="saludo()">
+   <style>
+    body {
+    background-image: url("assets/images/vapor-cielo.jpg");
+    background-size:cover;
+    background-color: blueviolet;
+    }
+   </style>
+    <!-- header -->
+    <header class="ds-header" id="site-header">
+        <div class="container">
+            <div class="ds-header-inner">
+              <!-- logo -->
+              <a href="index.html" class="ds-logo">
+                <span>FBZ</span>Felipe Bazignan Fredes
+              </a>
+              <!-- logo -->
+              <!-- social -->
+              <ul class="ds-social">
+                <li><a href="https://github.com/felo1" target="_blank"><i class="ri-github-fill"></i></a></li>
+                <li><a href="#" target="_blank"><i class="ri-linkedin-fill"></i></a></li>
+                <li><a href="#" target="_blank"><i class="ri-facebook-fill"></i></a></li>
+                <li><a href="#" target="_blank"><i class="ri-instagram-fill"></i></a></li>
+                <li><a href="bit.ly/2aqzQUJ" target="_blank"><i class="ri-youtube-fill"></i></a></li>
+                <li><a href="133" target="_blank"><i class="ri-whatsapp-fill"></i></a></li>
+              </ul>
+              <!-- social -->
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+    <!-- banner -->
+    <div class="ds-banner">
+      <div  class="container">
+        <div class="row">
+          <div style="margin-top:5%" class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+            <figure>
+              <img src="assets/images/profile-image2.jpg">
+            </figure>
+          </div>
+          <div style="margin-top:5%" class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
+            <section>
+                <h1>
+                  <span><h6 id="holanda"></h6></span>
+                  Soy Felipe Bazignan <br> Administrador TI & Freelance DEV en Backend. <br> Viñamarino.
+                </h1>
+
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- banner -->
+
+    <!-- about -->
+    <div class="ds-about-section">
+      <div class="container">
+        <section>
+            <h2 class="ds-heading">Acerca de mí</h2>
+            <p>En el trabajo soy un colaborador muy colaborador, flexible, jovial y con gran entusiasmo por aprender tecnologías nuevas y colaborar en el lugar de trabajo.
+              Muy atento a la puntualidad, detalle, a la buena atención y convivencia. Firme creyente en la importancia de crear un buen ambiente de trabajo & sensación de equipo para lograr nuestras metas</p>
+              <p>Geek desde que tengo memoria, me interesa todo lo que es tecnología, anime/manga y videojuegos. Fan de las mascotas. El vaporware es mi estilo de vida.</p>
+            
+        </section>
+      </div>
+    </div>
+    <!-- about -->
+
+    <!--  Skills -->
+    <div class="ds-skills-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+             <h2 class="ds-heading">Habilidades principales</h2>
+             <ul class="ds-skills-list">
+               <li>JavaScript</li>
+               <li>Bootstrap</li>
+               <li>Django</li>
+               <li>SQLite</li>
+               <li>Postgre</li>
+               <li>Github</li>
+               <li>Python</li>
+               <li>HTML</li>
+             </ul>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <h2 class="ds-heading">Otras</h2>
+            <ul class="ds-skills-list">
+              <li>Google Workspace Admin</li>
+              <li>Administración de CPanel</li>
+              <li>Madmimi</li>
+              <li>Wordpress - desarrollo, admin y seguridad</li>
+              <li>Administración Hardware y Redes | IT Essentials y Cisco Associate</li>
+              <li>Administración de Moodle y diseñador de contenidos</li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <h2 class="ds-heading">Misceláneos</h2>
+            <ul class="ds-skills-list">
+              <li><a href="https://www.efset.org/cert/BYuwex">Inglés autodidacta: Proficiencia C2 </a></li>
+              <li>Japonés: Nivel B9 Intermedio | Corporación Nikkei de Valparaíso</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  Skills -->
+
+   <!-- Experience -->
+   <div class="ds-experience-section">
+     <div class="container">
+        <h2 class="ds-heading">Experiencia laboral reciente</h2>
+        <div class="row ds-experience-list">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+              <section>
+                <span class="ds-year">2015 - presente</span>
+                <h3 class="ds-officename">Instituto Internacional de Artes culinarias y servicios Culinary</h3>
+                <span class="ds-department">Administrador TI</span>
+                <ul>
+                  <li>Gestión de instalaciones, presupuestos, adquisiciones y mantenimiento de recursos de informática</li>
+                  <li>Administración de plataforma Google Workspace, Moodle (OpenLMS), correos masivos, hosting, Intranet, Blackboard</li>
+                  <li>Administración de red interna</li>
+                  <li>Administrador de comunicaciones </li>
+                  <li>Elaboración de informes de información interna</li>
+                  <li>Capacitaciones en software de ofimática y aprendizaje a funcionarios y docentes (Office, G. Workspace, Moodle, Blackboard)</li>
+                  <li>Soporte técnico e Informático a nivel institucional</li>
+                  <li>Jefe de informática subrogante</li>
+                </ul>
+              </section>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+              <section>
+                <span class="ds-year">2014 - presente</span>
+                <h3 class="ds-officename">FYBA Consultores</h3>
+                <span class="ds-department">Jefe TI</span>
+                <ul>
+                  <li>Desarrollo y mantención de sitios web de clientes y sus servicios asociados</li>
+                  <li>Asesoría, soporte y administración de todo lo relativo a TI</li>
+                  <li>Gestión de instalaciones, adquisiciones y mantenimiento de equipos, software y redes</li>
+                  <li>Prestación de servicios de soporte y asesoría a clientes</li>
+                </ul>
+              </section>
+            </div>
+        </div>
+     </div>
+   </div>
+    <!-- Experience -->
+
+   <!--  Work -->
+   <div class="ds-work-section">
+     <div class="container">
+          <h2 class="ds-heading">Mis últimos proyectos</h2>
+          <div class="ds-work-list-section">
+            <div class="ds-work-list">
+              <div class="row">
+                  <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
+                      <section>
+                          <h3 class="ds-work-tilte">Campus Virtual Culinary</h3>
+                          <p>Desde el proceso de evaluación hasta la capacitación de docentes en la plataforma, he sido el responsable de administrar la plataforma de enseñanza virtual 
+                            'Campus Virtual' del Instituto Culinary
+                          </p>
+                          <a href="http://campusvirtual.culinary.cl/" class="ds-button">Echarle una mirada</a>
+                      </section>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+                      <figure><img src="assets/images/campusvirtual.png"></figure>
+                  </div>
+              </div>
+            </div>
+            <div class="ds-work-list">
+              <div class="row">
+                  <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
+                      <section>
+                          <h3 class="ds-work-tilte">Kolaci</h3>
+                          <p>
+                            Prototipo del sitio de repostería de especialidad, para showcase de productos. Eventualmente será reemplazado por un proyecto de Django que ayude con una serie de labores del trabajo
+                          </p>
+                          <a href="http://www.kolaci.cl" class="ds-button">A ver</a>
+                      </section>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+                      <figure><img src="assets/images/kolaci.png"></figure>
+                  </div>
+              </div>
+            </div>
+            <div class="ds-work-list">
+              <div class="row">
+                  <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
+                      <section>
+                          <h3 class="ds-work-tilte">FYBA</h3>
+                          <p>
+                            Sitio de presentación de las actividades que ofrece nuestra empresa familiar de consultoría.
+                          </p>
+                          <a href="http://www.fyba.cl" class="ds-button">Vamos</a>
+                      </section>
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+                       <figure><img src="assets/images/fyba.png"></figure>
+                  </div>
+              </div>
+            </div>
+          </div>
+     </div>
+   </div>
+   <!--  Work -->
+
+   <!--  footer -->
+   <footer class="ds-footer text-center">
+   <p style="writing-mode: vertical-rl; bottom:0px; position: absolute; ">Hecho con más cariño del que tenía presupuestado por Felipe Bazignan.| © 2023 | Todos los derechos reservados.</p>
+     <div class="container">
+        <section>
+          <span>Gracias por tu interés 🙇</span>
+          <h4>¿Quiere contactarme?</h4>
+          <div class="ds-button-sec text-center">
+          <a href="mailto:fbz@fyba.cl" class="ds-button">Hablemos por aquí</a>
+           <a href="#" class="ds-button">Llevarme una copia de este CV en</a>
+           <a href="#" class="ds-button">Volver al inicio</a>
+          </div>
+        </section>
+        <span class="ds-copyright">© 2023 Todos los derechos reservados. ¿Te gustó el diseño? Puedes encontrarlo en <a href="https://www.designstub.com/product/defolio-bootstrap-5-html-resume-template/" target="_blank">Designstub</a>.</span>
+     </div>
+   </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
